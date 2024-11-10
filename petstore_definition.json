@@ -1101,7 +1101,7 @@
         },
         "Pet": {
           "required": [
-            "name",
+            "pet_name",
             "photoUrls"
           ],
           "type": "object",
@@ -1111,7 +1111,7 @@
               "format": "int64",
               "example": 10
             },
-            "name": {
+            "pet_name": {
               "type": "string",
               "example": "doggie"
             },
